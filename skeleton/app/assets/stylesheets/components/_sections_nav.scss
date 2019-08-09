@@ -1,0 +1,12 @@
+.section-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-list li:hover {
+  background-color: lightgray;
+}
+
+.all:hover {
+  text-decoration: underline;
+}
