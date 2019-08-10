@@ -128,7 +128,7 @@ hr {
 	padding-top: 1%;
 }
 
-#login:hover, #subscribe-now:hover {
+#login:hover, #subscribe-now:hover, .signup span:hover {
 	background: dodgerblue;
 }
 
@@ -139,7 +139,8 @@ hr {
 			
 }
 #gear-dropdown-btn {
-	position: relative;
+	position: absolute;
+	margin-top: 6px;
 }
 // #gear:hover {
 // 			color:lightgray;
@@ -193,3 +194,14 @@ hr {
 .hidden{
 	display: none
 }
+
+.editions li:hover {
+	background: rgb(193, 190, 190);
+	width: 50%;
+}
+
+.help li:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
